@@ -5,9 +5,9 @@
 [img3]: ./output_images/hog_car1.png "hog_car1.png"
 [img4]: ./output_images/hog_car2.png "hog_car2.png"
 
-
-# Extended Kalman Filter Project for Udacity Self-Driving Car Engineer Nanodegree Program
-
+---
+# SDCND Term 2 Project 6: Extended Kalman Filter
+## Project for Udacity Self-Driving Car Engineer Nanodegree Program
 
 In this project we will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements.
 
