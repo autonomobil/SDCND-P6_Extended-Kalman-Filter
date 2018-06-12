@@ -40,10 +40,12 @@ These files were modified compared to the [original repository](https://github.c
 * src/tools.cpp
 
 INPUT: values provided by the simulator to the c++ program
+
 ["sensor_measurement"] => the measurement that the simulator observed (either lidar or radar)
 
 
 OUTPUT: values provided by the c++ program to the simulator
+
 ["estimate_x"] <= kalman filter estimated position x
 ["estimate_y"] <= kalman filter estimated position y
 ["rmse_x"]
