@@ -31,22 +31,24 @@ Follow these suggested steps for Windows setup:
 
 * Follow these the [instructions](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) for setting up Ubuntu BASH.
 * Download Windows simulator [here](https://github.com/udacity/self-driving-car-sim/releases).
-* Open Ubuntu Bash
+* Open Ubuntu Bash (write all following commands to Ubuntu Bash command window)
 * ``sudo apt-get update``
 * ``sudo apt-get install git``
 * ``sudo apt-get install cmake``
 * ``sudo apt-get install openssl``
 * ``sudo apt-get install libssl-dev``
+* navigate to where you want to clone this repository to, for example:
+ ``cd /mnt/c/Users/"Bob"``
 * ``git clone https://github.com/autonomobil/SDCND-P6_Extended-Kalman-Filter``
 * ``sudo rm /usr/lib/libuWS.so``
-* navigate | cd to ``/SDCND-P6_Extended-Kalman-Filter/``
+* navigate to project folder: ``cd ./SCDND-P6_ExtendedKalmanFilter``
 * ``./install-ubuntu.sh``
 * ``mkdir build && cd build``
 * ``cmake .. && make``
-* Launch the ``term2_sim.exe`` from Windows simulator
+* Launch the **term2_sim.exe** from Windows simulator folder
 * Execute ``./ExtendedKF``
 * If you see ``Listening to port 4567 Connected!!!``, it is working
-* Press ``Start``
+* Press **Start**
 
 These files were modified compared to the [original repository](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project):  
 * src/FusionEKF.cpp
