@@ -6,6 +6,7 @@
 ---
 # SDCND Term 2 Project 6: Extended Kalman Filter
 ## Project for Udacity Self-Driving Car Engineer Nanodegree Program
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 In this project we will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements.
 
