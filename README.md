@@ -39,7 +39,7 @@ Follow these suggested steps for Windows setup:
 * ``sudo apt-get install gcc``
 * ``sudo apt-get install g++``
 * ``sudo apt-get install openssl``
-* ``sudo apt-get install libssl-dev```
+* ``sudo apt-get install libssl-dev``
 * navigate to where you want to clone this repository to, for example:
  ``cd /mnt/c/Users/"Bob"``
 * ``git clone https://github.com/autonomobil/SDCND-P6_Extended-Kalman-Filter``
